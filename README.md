@@ -9,7 +9,7 @@ This is the code for _Image Hijacks: Adversarial Images can Control Generative M
 
 The code can be run under any environment with Python 3.9 and above. 
 
-We use [poetry](https://python-poetry.org) for dependency management, which can be installed following the instructions [here](https://python-poetry.org/docs/ #installation).
+We use [poetry](https://python-poetry.org) for dependency management, which can be installed following the instructions [here](https://python-poetry.org/docs/#installation).
 
 To build a virtual environment with the required packages, simply run
 
