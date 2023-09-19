@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "image-hijacks"
+version = "0.1.0"
+description = ""
+authors = ["Luke Bailey <lukebailey@college.harvard.edu>", "Euan Ong <euan.l.y.ong@gmail.com>", "Stuart Russell <russell@cs.berkeley.edu>", "Scott Emmons <scott@scottemmons.com>"]
+readme = "README.md"
+packages = [{include = "image_hijacks"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+llava = {git = "https://github.com/haotian-liu/LLaVA.git"}
+lightning = {git = "https://github.com/Lightning-AI/lightning", rev = "2.1.0.rc0"}
+pillow = "^10.0.0"
+wandb = "^0.15.10"
+tqdm = "^4.66.1"
+matplotlib = "^3.7.2"
+einops = "^0.6.1"
+expecttest = "^0.1.6"
+prettyprinter = "^0.18.0"
+torchopt = "^0.7.2"
+black = "^23.7.0"
+levenshtein = "^0.21.1"
+openai = "^0.28.0"
+jaxtyping = "^0.2.21"
+torch = "2.0.0"
+torchvision = "<0.15.2"
+pytest = "^7.4.2"
+datasets = "^2.14.5"
+tensorboard = "^2.14.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
