@@ -1,3 +1,5 @@
+[![arXiv](https://img.shields.io/badge/arXiv-2309.00236-b31b1b.svg)](https://arxiv.org/abs/2309.00236)
+
 # Image Hijacks: Adversarial Images can Control Generative Models at Runtime
 
 This is the code for _Image Hijacks: Adversarial Images can Control Generative Models at Runtime_.
@@ -71,4 +73,19 @@ To run tests,
 ```bash
 poetry run python download.py models blip2-flan-t5-xl
 poetry run pytest .
+```
+
+## Citation
+
+To cite our work, you can use the following BibTeX entry:
+
+```bibtex
+@misc{bailey2023image,
+  title={Image Hijacks: Adversarial Images can Control Generative Models at Runtime}, 
+  author={Luke Bailey and Euan Ong and Stuart Russell and Scott Emmons},
+  year={2023},
+  eprint={2309.00236},
+  archivePrefix={arXiv},
+  primaryClass={cs.LG}
+}
 ```
